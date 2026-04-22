@@ -1,11 +1,10 @@
-﻿using Soenneker.Tests.Unit;
-using Xunit;
+using Soenneker.Tests.Unit;
 
 namespace Soenneker.Extensions.DateTimeOffsets.Suite.Tests;
 
 public sealed class DateTimeOffsetsSuiteExtensionTests : UnitTest
 {
-    [Fact]
+    [Test]
     public void Default()
     {
 
