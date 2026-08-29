@@ -4,10 +4,19 @@
 [![](https://img.shields.io/github/actions/workflow/status/soenneker/soenneker.extensions.datetimeoffsets.suite/codeql.yml?label=CodeQL&style=for-the-badge)](https://github.com/soenneker/soenneker.extensions.datetimeoffsets.suite/actions/workflows/codeql.yml)
 
 # ![](https://user-images.githubusercontent.com/4441470/224455560-91ed3ee7-f510-4041-a8d2-3fc093025112.png) Soenneker.Extensions.DateTimeOffsets.Suite
-### A collection of all of the helpful DateTimeOffset extension methods
+A collection of all of the helpful DateTimeOffset extension methods.
 
 ## Installation
 
-```
+```bash
 dotnet add package Soenneker.Extensions.DateTimeOffsets.Suite
 ```
+
+## Included packages
+
+- `Soenneker.Extensions.DateTimeOffsets.DayOfWeeks`
+- `Soenneker.Extensions.DateTimeOffsets.Hours`
+- `Soenneker.Extensions.DateTimeOffsets.Months`
+- `Soenneker.Extensions.DateTimeOffsets.Quarters`
+- `Soenneker.Extensions.DateTimeOffsets.Weeks`
+- `Soenneker.Extensions.DateTimeOffsets.Years`
